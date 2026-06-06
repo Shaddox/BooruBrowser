@@ -36,9 +36,8 @@ impl Post {
     }
 
     pub fn best_image_url(&self) -> Option<&str> {
-        self.large_file_url
-            .as_deref()
-            .or(self.file_url.as_deref())
+        self.file_url.as_deref()
+            .or(self.large_file_url.as_deref())
             .or(self.preview_file_url.as_deref())
     }
 
