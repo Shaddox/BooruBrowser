@@ -4,6 +4,8 @@ A small terminal UI for searching and browsing Danbooru posts.
 
 The app starts with a safe-rated Danbooru search, shows results in a list, and displays details for the selected post. From the terminal UI, you can page through results and open either the Danbooru post page or the best available image URL in your browser.
 
+![Application Screenshot](/docs/screenshot-1.png)
+
 ## Requirements
 
 - Rust 2024 edition toolchain
